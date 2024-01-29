@@ -30,11 +30,7 @@ int Fact(int n)
 
     int result =  n * Fact(n-1);
 
-    for (int i = 2; i <= n; i++)
-    {
-        Console.WriteLine($"Возврат: n = {i}, fact = {Fact(i-1)}");
-    }
-
+    Console.WriteLine($"Возврат: n = {n}, fact = {result/n}");
     return result ;
     
 }
